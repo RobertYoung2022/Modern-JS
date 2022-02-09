@@ -1,13 +1,26 @@
-let name = "Robert Young";
+// let name = "Robert Young";
+//
+// console.log("String: " + name);
+//
+// let firstName = "Robert";
+// let lastName = "Young";
+//
+// console.log(`Shorthand method to write full name: ${firstName} ${lastName}`);
+//
+// // OR
+// let fullName = firstName + " " + lastName;
+//
+// console.log("Concat method to write full name: " + fullName);
 
-console.log("String: " + name);
+// CHALLENGE
 
-let firstName = "Robert";
-let lastName = "Young";
+// city, country, and location(city & country) ex. San Antonio, United States
 
-console.log(`Shorthand method to write full name: ${firstName} ${lastName}`);
+let myCity = "Chicago";
+console.log("My city of origin is: " + myCity);
 
-// OR
-let fullName = firstName + " " + lastName;
+let myCountry = "United States";
+console.log("My country of origin is: " + myCountry);
 
-console.log("Concat method to write full name: " + fullName)
+let myLocation = myCity + ", " + myCountry;
+console.log("My place of birth: " + myLocation);
