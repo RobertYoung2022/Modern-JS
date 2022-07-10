@@ -9,4 +9,3 @@ console.log(celsius);
 // print that value
 let kelvin = (fahrenheit - 32) / 1.8 + 273.15;
 console.log(kelvin);
-
